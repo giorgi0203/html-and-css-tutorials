@@ -4,6 +4,7 @@ main a {
   width: 30px;
   height: 100px;
   background-color: blue;
+  padding: 10px;
 }
 main {
   display: inline-block;
