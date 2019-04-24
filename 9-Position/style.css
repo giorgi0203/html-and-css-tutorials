@@ -1,17 +1,28 @@
+* {
+  box-sizing: border-box;
+}
 .wrap {
+  padding: 50px;
+}
+
+.item {
   position: relative;
-  height: 600px;
-  width: 600px;
-  background-color: blue;
-}
-.block {
-  position: absolute;
+  display: inline-block;
+  margin-right: 30px;
   height: 50px;
-  width: 100px;
-  background-color: white;
+  width: 50px;
+  background-color: rgb(181, 182, 184);
+  border-radius: 10px;
 }
-.center {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+  height: 20px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid white;
+  padding: 1px 5px;
 }
