@@ -1,5 +1,6 @@
 nav a {
   display: block;
+  border: solid green 3px;
   color: white;
   height: 10px;
   background-color: blue;
