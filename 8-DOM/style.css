@@ -1,12 +1,8 @@
-nav a {
-  display: block;
-  border: solid green 3px;
-  color: white;
-  height: 10px;
-  background-color: blue;
-  margin-bottom: 10px;
+div {
+  width: 200px;
+  height: 200px;
   padding: 10px;
-}
-nav a:last-child {
-  margin-bottom: 0px;
+  border:  5px solid green;
+  margin: 20px;
+  box-sizing: border-box;
 }
