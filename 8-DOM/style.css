@@ -1,7 +1,11 @@
-div {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  background-color: blue;
-  box-sizing: border-box;
+.table {
+  display: table;
+}
+
+.row {
+  display: table-row;
+}
+.row div {
+  padding: 5px;
+  display: table-cell;
 }
