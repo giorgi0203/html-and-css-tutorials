@@ -17,8 +17,11 @@ footer {
 .cell {
   min-height: 150px;
   background-color: green;
+  flex-grow: 1;
 }
 .col {
+  display: flex;
+  flex-direction: column;
   margin-right: 20px;
 }
 
@@ -26,10 +29,14 @@ footer {
   display: flex;
   margin-bottom: 20px;
   justify-content: center;
+  flex-grow: 1;
 }
 
 .row .col:last-child {
   margin-right: 0;
+}
+.col .row:last-child {
+  margin-bottom: 0;
 }
 
 .col-1 {
