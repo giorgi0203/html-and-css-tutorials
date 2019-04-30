@@ -1,0 +1,17 @@
+h1 {
+  font-family: Lobster;
+}
+
+p {
+  font-family: "PT Sans";
+  font-weight: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 700;
+}
+
