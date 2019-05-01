@@ -29,6 +29,7 @@ article {
   color: #21c2f8;
   font-family: "Lobster";
   font-size: 24px;
+  line-height: 30px;
 }
 
 .content header p span {
@@ -37,6 +38,8 @@ article {
   line-height: 39px;
   color: #707070;
   margin-left: -2px;
+  
+  line-height: 30px;
 }
 .content header p span::after {
   content: "";
@@ -46,6 +49,7 @@ article {
   background-color: #ebebeb;
   margin-left: 10px;
   margin-right: 13px;
+  margin-top: 12px;
 }
 
 .content header p span:last-child::after {
@@ -67,6 +71,7 @@ article {
   color: #a1b1bc;
   line-height: 24px;
   margin-top: -10px;
+  width: 645px;
 }
 
 .content a {
