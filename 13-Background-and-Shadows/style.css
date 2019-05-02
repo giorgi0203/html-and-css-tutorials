@@ -28,6 +28,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 main > div {
@@ -40,6 +41,9 @@ main > div {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  filter: blur(16px);
+  background-color: rebeccapurple;
+  transform: scale(1.1)
 }
 
 main > div::before {
@@ -52,11 +56,12 @@ main > div::before {
   width: 100%;
   background: linear-gradient(
     0deg,
-    #000000FF 0%,
-    #00000051 37%,
-    #00000043 55%,
-    #00000000 100%
-  )
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.81) 37%,
+    rgba(0, 0, 0, 0.67) 55%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  opacity: 0.85;
 }
 
 main > div::after {
